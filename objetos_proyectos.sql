@@ -1,4 +1,5 @@
 -- VISTAS
+USE huellitas;
 
 CREATE VIEW vista_adopciones_completas AS
 SELECT 
