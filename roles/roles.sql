@@ -1,4 +1,4 @@
-USE huellitas;
+USE mysql;
 
 -- Crear el usuario administrador si no existe
 CREATE USER IF NOT EXISTS 'administrador_huellitas'@'%' IDENTIFIED BY 'huellitas_2024';
@@ -7,6 +7,8 @@ CREATE USER IF NOT EXISTS 'administrador_huellitas'@'%' IDENTIFIED BY 'huellitas
 GRANT ALL PRIVILEGES ON huellitas.* TO 'administrador_huellitas'@'%' WITH GRANT OPTION;
 
 FLUSH PRIVILEGES;
+
+USE huellitas;
 
 -- Crear roles en la base de datos huellitas
 CREATE ROLE role_select_vistas;
