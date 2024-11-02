@@ -12,8 +12,6 @@ Tutor: Nancy Elizabeth Villena Reines
 
 Docente: Anderson Michel Torres
 
-
-
 ---
 
 ### **Consignas:**
@@ -39,25 +37,17 @@ Docente: Anderson Michel Torres
 ---
 
 ## Tematica del proyecto
-Nuestro equipo de desarrollo está trabajando en un sistema de gestión de reservas para restaurantes, y nos enfrentamos a la necesidad de diseñar una base de datos eficiente que pueda manejar todas las operaciones relacionadas con las reservas de manera óptima.
+
+El equipo del proyecto Huellitas es una iniciativa centrada en facilitar y promover la adopción responsable de animales, con un enfoque en mejorar el bienestar de mascotas en situación de refugio. 
+
+Este sistema permite gestionar toda la información relacionada con el proceso de adopción de manera organizada y accesible, ayudando a los refugios y organizaciones de rescate animal a conectar mascotas en espera de un hogar con adoptantes potenciales.
 
 
 ## Modelo de negocio
 
-1. **Gestión de Clientes y Empleados**: Necesitamos una base de datos que nos permita registrar la información de los clientes que realizan reservas, así como de los empleados involucrados en el proceso de reserva, como los camareros o encargados de atención al cliente.
-
-2. **Gestión de Tipos de Reserva**: Es importante poder clasificar las reservas según su tipo, ya sea una reserva estándar, una reserva para eventos especiales o reservas de grupos grandes. Esto nos ayudará a organizar mejor el flujo de trabajo y adaptar nuestros servicios según las necesidades del cliente.
-
-3. **Gestión de Mesas y Disponibilidad**: La base de datos debe permitirnos registrar la disponibilidad de mesas en cada restaurante, así como gestionar su capacidad y estado (ocupado o disponible). Esto es fundamental para garantizar una asignación eficiente de mesas y evitar conflictos de reservas.
-
-4. **Registro de Reservas**: Necesitamos un sistema que pueda registrar de manera detallada cada reserva realizada, incluyendo la fecha y hora de la reserva, el cliente que la realizó, la mesa reservada, el empleado que atendió la reserva y el tipo de reserva.
-
 El modelo de negocio de Huellitas en la ciudad de La Plata se centra en la recepción, cuidado,
-tratamiento y adopción de mascotas sin hogar.
-
-Este refugio tiene como objetivo principal proporcionar un hogar temporal a las mascotas
-desamparadas, brindarles la atención veterinaria necesaria y facilitar su adopción a personas
-responsables y dispuestas a cuidarlas.
+tratamiento y adopción de mascotas sin hogar.Este refugio tiene como objetivo principal proporcionar un hogar temporal a las mascotasdesamparadas, brindarles la atención veterinaria necesaria y facilitar su adopción a personas
+responsables y dispuestas a cuidarlas. Teniendo en cuenta todas las partes influyentes en este proceso, desde las mascotas y adoptantes hasta los otros refugios y proveedores de insumos
 
 El objetivo es agilizar el dia a dia del refugio, ordenar sus datos y facilitar la toma de decisiones para la
 supervivencia de la organizacion a lo largo del tiempo
@@ -73,7 +63,6 @@ src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/DER
 ## Listado de tablas y descripcion
 <img
 src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/Esquema_huellitas.png">
-
 
 ## Tabla de Datos
 <img
