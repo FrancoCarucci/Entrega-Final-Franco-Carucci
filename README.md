@@ -100,6 +100,105 @@ Esta funcion fue diseñada para devolver la fecha de la última adopción realiz
 
 **Ejemplo de uso:**
 ```sql
-SELECT fn_ultima_adopcion(3) AS ultima_adopcion;;
+SELECT fn_ultima_adopcion(3) AS ultima_adopcion;
+```
+
+## Vistas
+
+### `vista_mascotas_sin_adoptar`
+Si existe una tabla de mascotas que no han sido adoptadas, esta vista muestra las mascotas que aún no han sido adoptadas.
+
+**Ejemplo de uso:**
+```sql
+SELECT * FROM vista_mascotas_sin_adoptar;
+```
+
+### `vista_adopciones_complejas`
+Esta vista combina información de adoptantes, colaboradores y mascotas para mostrar un resumen completo de las adopciones.
+
+**Ejemplo de uso:**
+```sql
+SELECT *
+FROM vista_adopciones_compleja
+WHERE fecha_adopcion >= DATE_SUB(CURDATE(), INTERVAL 3 MONTH);
+```
+
+## Procedimientos
+
+## `sp_actualizar_colaborador()`
+Actualiza los datos de un colaborador
+
+**Parámetros:**
+- `id_colaborador`
+- `nombre`
+- `apellido`
+- `fecha_nacimiento`
+- `domicilio`
+- `telefono`
+- `correo_electronico`
+
+**Ejemplo de uso:**
+```sql
+CALL sp_actualizar_colaborador(1, 'Juan', 'Pérez', '1980-05-12', 'Calle Nueva 456', '5559876543', 'juan.perez@example.com');
+```
+
+### `sp_registrar_adopcion()`
+Este procedimiento se utiliza para registrar una nueva adopcion
+
+**Parámetros:**
+- `id_adoptante`
+- `id_colaborador`
+- `id_mascota`
+- `fecha`
+
+**Ejemplo de uso:**
+```sql
+CALL sp_registrar_adopcion(1, 2, 3, '2024-10-10');
+```
+
+## Triggers
+
+### `before_insert_colaborador`
+Este trigger valida que los colaboradores tengan al menos 18 años antes de ser insertados en la base de datos.
+
+**Ejemplo de uso:**
+```sql
+INSERT INTO colaboradores (nombre, apellido, fecha_nacimiento, domicilio, telefono, correo_electronico)
+VALUES ('Juan', 'Pérez', '2010-05-15', 'Av. Juventud 123', '5551234567', 'juan.perez@example.com');
+```
+
+### `antes_de_borrar_mascota`
+Este trigger se activa antes de que se elimine una mascota. Si la mascota ha sido adoptada, se impide la eliminación.
+
+**Ejemplo de uso:**
+```sql
+DELETE FROM mascotas WHERE id_mascota = 8;
+```
+
+## Transacciones
+
+Actualización de Historial Médico de una Mascota con Verificación
+```sql
+INSERT INTO HISTORIAL_SALUD (mascota_id, fecha_consulta, diagnostico, tratamiento)
+VALUES (7, CURDATE(), 'Resfriado', 'Descanso y líquidos');
+
+IF ROW_COUNT() > 0 THEN
+    UPDATE MASCOTA
+    SET estado_salud = 'en tratamiento'
+    WHERE mascota_id = 7;
+```
+Usando COMMIT agrego los cambios, de lo contrario, con ROLLBACK, se deshacen
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 
