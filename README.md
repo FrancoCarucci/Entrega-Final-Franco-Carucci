@@ -66,8 +66,8 @@ supervivencia de la organizacion a lo largo del tiempo
 ## Diagrama entidad relacion (DER)
 
 
-```
-https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/DER_Huellitas.jpeg
+<img
+src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/DER_Huellitas.png">
 
 ```
 
