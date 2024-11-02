@@ -58,7 +58,7 @@ Nuestro equipo de desarrollo está trabajando en un sistema de gestión de reser
 
 ```
 
-![image](https://github.com/user-attachments/assets/5e61ea24-ef59-426c-b593-bd22d9aecd8f)
+DER_Huellitas.jpeg
 
 
 ```
