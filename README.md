@@ -4,13 +4,13 @@
 
 
 # <center>Entrega de proyecto final</center>
-Alumno: Franco Carucci
+@Alumno
 
-Comision: SQL 54910
+@Comision
 
-Tutor: Nancy Elizabeth Villena Reines
+@Tutor
 
-Docente: Anderson Michel Torres
+@Docente
 
 
 
@@ -57,10 +57,7 @@ Nuestro equipo de desarrollo está trabajando en un sistema de gestión de reser
 
 
 ```
-
-![image](https://github.com/user-attachments/assets/1e4ef74a-6d95-4017-825c-2c9428d01042)
-
-
+![alt](./DER_Huellitas.jpeg) 
 
 ```
 
@@ -407,3 +404,5 @@ Se puede generar un comando en el archivo `make backup` que me permite ejecutar 
     - `make test-db` para mirar los datos de cada tabla
     - `make backup-db` para realizar un backup de mi base de datos
     - `make access-db` para acceder a la base de datos
+
+
