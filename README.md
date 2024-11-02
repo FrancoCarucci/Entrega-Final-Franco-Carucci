@@ -4,13 +4,13 @@
 
 
 # <center>Entrega de proyecto final</center>
-@Alumno
+Alumno: Franco Carucci
 
-@Comision
+Comision: SQL 54910
 
-@Tutor
+Tutor: Nancy Elizabeth Villena Reines
 
-@Docente
+Docente: Anderson Michel Torres
 
 
 
