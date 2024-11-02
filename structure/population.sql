@@ -109,7 +109,7 @@ VALUES
 (9, 4, 10, 7, '2022-09-17'),
 (10, 11, 8, 11, '2022-10-01');
 
-INSERT INTO refugios (nombre, direccion, telefono, email) 
+INSERT INTO refugios (nombre, domicilio, telefono, correo_electronico) 
 VALUES
 ('Refugio Huellitas Felices', 'Av. Siempreviva 742', '123456789', 'huellitasfelices@example.com'),
 ('Refugio Esperanza Animal', 'Calle Principal 123', '987654321', 'esperanza_animal@example.com'),
@@ -132,7 +132,7 @@ VALUES
 ('Refugio Mundo de Patas', 'Calle Aurora 9', '111222333', 'mundodepatas@example.com'),
 ('Refugio La Casita de Peludos', 'Av. Nueva 55', '444333222', 'casitapeludos@example.com');
 
-INSERT INTO proveedores (nombre, direccion, telefono, tipo_producto) 
+INSERT INTO proveedores (nombre, domicilio, telefono, tipo_producto) 
 VALUES
 ('Proveedor Animalia', 'Calle Comercio 123', '123456789', 'Alimento para perros'),
 ('Distribuidora Mascotilandia', 'Av. Central 89', '987654321', 'Alimento para gatos'),
