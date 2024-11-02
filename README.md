@@ -75,12 +75,12 @@ src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/DER
 src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/Esquema_huellitas.png">
 
 
-
+## Tabla de Datos
+<img
+src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/Tabla_Huellitas.png">
 
 ## Estructura e ingesta de datos
 * Se realiza principalmente por medio del archivo population.sql
-
-
   
 ## *OBJETOS*
 
