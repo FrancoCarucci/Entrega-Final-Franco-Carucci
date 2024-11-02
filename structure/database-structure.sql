@@ -51,15 +51,15 @@ PRIMARY KEY (id_adopcion)
 CREATE TABLE REFUGIOS(
 id_refugio INT NOT NULL auto_increment,
 nombre VARCHAR(100),
-direccion VARCHAR(255),
+domicilio VARCHAR(255),
 telefono VARCHAR(15),
-email VARCHAR(100),
+correo_electronico VARCHAR(100),
 PRIMARY KEY (id_refugio)
 );
 CREATE TABLE PROVEEDORES (
     id_proveedor INT NOT NULL auto_increment,
     nombre VARCHAR(100) NOT NULL,
-    direccion VARCHAR(255),
+    domicilio VARCHAR(255),
     telefono VARCHAR(15),
     tipo_producto VARCHAR(50),
     PRIMARY KEY (id_proveedor)
