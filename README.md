@@ -67,7 +67,7 @@ supervivencia de la organizacion a lo largo del tiempo
 
 
 ```
-
+https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/DER_Huellitas.jpeg
 
 ```
 
