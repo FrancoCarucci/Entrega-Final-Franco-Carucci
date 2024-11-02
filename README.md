@@ -69,11 +69,10 @@ supervivencia de la organizacion a lo largo del tiempo
 <img
 src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/DER_Huellitas.png">
 
-```
-
-
 
 ## Listado de tablas y descripcion
+<img
+src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/Esquema_huellitas.png">
 
 
 
