@@ -58,38 +58,8 @@ Nuestro equipo de desarrollo está trabajando en un sistema de gestión de reser
 
 ```
 
-+-------------+
-| TIPORESERVA |
-+-------------+
-| IDTIPORES PK|
-|    TIPO     |
-+-------------+
-        |
-+-------------------+       +-------------+       +-----------------+      
-|   RESERVA         |       |   CLIENTE   |       |  EMPLEADO       |      
-+-------------------+       +-------------+       +-----------------+      
-| IDRESERVA PK      |       | IDCLIENTE PK|       | IDEMPLEADO PK   |     
-| IDCLIENTE FK      |<------|             |<------|                 |      
-| IDMESA   FK       |<------|             |       | IDRESTAURANTE FK|   
-| IDEMPLEADO FK     |<------|  STATUS     |       |                 |      
-| IDTIPORESERVA FK  |<------| FECHA_ALTA  |       |                 |      
-| FECHA             |       |   NOMBRE    |       |   NOMBRE        |      
-| CANCELACION       |       |  TELEFONO   |       |  TELEFONO       |      
-+-------------------+       |   CORREO    |       |   CORREO        |
-                            +-------------+       +-------------    +
-                                     |                   |
-                                     |                   |
-+-------------+       +-------------    +       +-------------      +       +-------------      +
-|   DUENO     |       | RESTAURANTE     |       |    MESA           |       | RESERVA           |
-+-------------+       +-------------    +       +-------------      +       +-------------      +
-| IDDUENO PK  |       | IDRESTAURANTE PK|       | IDMESA PK         |       | IDRESERVA PK      |
-|             |-----> | IDDUENO FK      |<------| IDRESTAURANTE FK  |-----> | IDCLIENTE FK      |
-| NOMBRE      |       | NOMBRE          |       |   CAPACIDAD       |       | IDMESA FK         |
-| CORREO      |       | DIRECCION       |       | DISPONIBLE        |       | IDEMPLEADO FK     |
-| TELEFONO    |       | TELEFONO        |       +-------------      +       | IDTIPORESERVA FK  |
-+-------------+       |                 |                                   | FECHA             |
-                       +-------------   +                                   | CANCELACION       |
-                                                                            +-------------      +
+![image](https://github.com/user-attachments/assets/5e61ea24-ef59-426c-b593-bd22d9aecd8f)
+
 
 ```
 
