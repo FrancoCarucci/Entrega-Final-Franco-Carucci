@@ -108,3 +108,72 @@ VALUES
 (8, 8, 9, 12, '2022-08-30'),
 (9, 4, 10, 7, '2022-09-17'),
 (10, 11, 8, 11, '2022-10-01');
+
+INSERT INTO refugios (nombre, direccion, telefono, email) 
+VALUES
+('Refugio Huellitas Felices', 'Av. Siempreviva 742', '123456789', 'huellitasfelices@example.com'),
+('Refugio Esperanza Animal', 'Calle Principal 123', '987654321', 'esperanza_animal@example.com'),
+('Refugio Amigos de Cuatro Patas', 'Av. Las Flores 567', '111222333', 'amigoscuatropatas@example.com'),
+('Refugio Refugio de Amor', 'Calle del Sol 456', '333444555', 'refugiodeamor@example.com'),
+('Refugio Refugio Pet Paradise', 'Av. Libertad 999', '444555666', 'petparadise@example.com'),
+('Rescate Animal', 'Camino Verde 321', '666777888', 'rescate_animal@example.com'),
+('Centro de Cuidado Animal', 'Plaza Mayor 78', '777888999', 'centrocuidado@example.com'),
+('Refugio Amigos Fieles', 'Calle de la Paz 12', '888999000', 'amigosfieles@example.com'),
+('Refugio Refugio Vida Nueva', 'Paseo de la Amistad 44', '999000111', 'vidanueva@example.com'),
+('Refugio Hogar de Peludos', 'Calle Amistad 98', '555444333', 'hogarpeludos@example.com'),
+('Refugio Pata con Pata', 'Av. Los Pinos 345', '222333444', 'pataconpata@example.com'),
+('Refugio Bienestar Animal', 'Calle Luna 47', '111222333', 'bienestaranimal@example.com'),
+('Refugio Hogar Temporal', 'Av. Mar 123', '999888777', 'hogartemporal@example.com'),
+('Refugio Vida Libre', 'Plaza Central 50', '777666555', 'vidalibre@example.com'),
+('Refugio Casa de Mascotas', 'Calle Sol 76', '555666777', 'casademascotas@example.com'),
+('Refugio Cuidado Animal', 'Av. Primavera 32', '666777888', 'cuidadoanimal@example.com'),
+('Refugio Paz Animal', 'Calle Paz 29', '222111333', 'pazanimal@example.com'),
+('Refugio Amor Canino', 'Paseo de las Flores 10', '333222444', 'amorcanino@example.com'),
+('Refugio Mundo de Patas', 'Calle Aurora 9', '111222333', 'mundodepatas@example.com'),
+('Refugio La Casita de Peludos', 'Av. Nueva 55', '444333222', 'casitapeludos@example.com');
+
+INSERT INTO proveedores (nombre, direccion, telefono, tipo_producto) 
+VALUES
+('Proveedor Animalia', 'Calle Comercio 123', '123456789', 'Alimento para perros'),
+('Distribuidora Mascotilandia', 'Av. Central 89', '987654321', 'Alimento para gatos'),
+('Proveedor VetCare', 'Calle Medicos 22', '456789123', 'Medicinas'),
+('PetSupplies', 'Av. Los Andes 100', '111222333', 'Juguetes'),
+('Proveedor SanoMascota', 'Calle Sol 50', '444555666', 'Alimento para cachorros'),
+('Distribuidora Fido y Felix', 'Av. Libertad 78', '555666777', 'Alimento y juguetes'),
+('Proveedor SaludAnimal', 'Calle Bosques 44', '666777888', 'Medicinas'),
+('EcoPets', 'Plaza Eco 101', '222333444', 'Productos ecológicos'),
+('Proveedor TodoMascotas', 'Calle Verde 70', '777888999', 'Accesorios'),
+('PetLove', 'Calle Amor 32', '999888777', 'Alimento para perros'),
+('Distribuidora VidaSalud', 'Av. Paz 20', '222111000', 'Medicinas y vitaminas'),
+('AnimalCare', 'Calle Cuidado 88', '888777666', 'Medicinas'),
+('Distribuidora Peludos', 'Calle Alegría 25', '555444333', 'Juguetes y accesorios'),
+('Proveedor Mascota Sana', 'Calle Bienestar 65', '333222111', 'Alimento para adultos'),
+('BioPet', 'Av. Amistad 45', '111000999', 'Vitaminas'),
+('Mascotamía', 'Calle Mascotas 12', '222333888', 'Alimento hipoalergénico'),
+('NaturPet', 'Calle Sol 85', '111999888', 'Alimento natural'),
+('Distribuidora Felicidad', 'Av. Sonrisa 92', '444555111', 'Juguetes'),
+('Proveedor Refugio', 'Av. Amparo 39', '777666333', 'Medicinas'),
+('AnimalMarket', 'Calle Comerciante 57', '999111333', 'Accesorios y juguetes');
+
+INSERT INTO historial_salud (id_mascota, fecha, descripcion, tratamiento, veterinario) 
+VALUES
+(1, '2023-01-15', 'Vacunación anual', 'Vacuna antirrábica', 'Dr. Juan Pérez'),
+(2, '2023-02-18', 'Tratamiento de desparasitación', 'Desparasitante', 'Dra. Ana López'),
+(3, '2023-03-20', 'Consulta por infección de oído', 'Antibióticos', 'Dr. Luis Martínez'),
+(4, '2023-04-25', 'Chequeo general', 'Sin tratamiento', 'Dra. Marta García'),
+(5, '2023-05-12', 'Cirugía de esterilización', 'Esterilización', 'Dr. Manuel Díaz'),
+(6, '2023-06-08', 'Tratamiento por alergia', 'Antihistamínicos', 'Dra. Paula Herrera'),
+(7, '2023-07-15', 'Vacunación contra parvovirus', 'Vacuna parvovirus', 'Dr. Ricardo Silva'),
+(8, '2023-08-18', 'Chequeo dental', 'Limpieza dental', 'Dra. Patricia Mendoza'),
+(9, '2023-09-22', 'Tratamiento de sarna', 'Baño medicado', 'Dr. Javier Torres'),
+(10, '2023-10-10', 'Consulta por pérdida de apetito', 'Suplemento alimenticio', 'Dra. Carla Rivas'),
+(11, '2023-01-25', 'Vacunación contra leptospirosis', 'Vacuna leptospirosis', 'Dr. David Orozco'),
+(12, '2023-02-11', 'Tratamiento por infección respiratoria', 'Antibióticos', 'Dra. Luz Ramírez'),
+(13, '2023-03-30', 'Chequeo post-adopción', 'Sin tratamiento', 'Dr. Mario Núñez'),
+(14, '2023-04-10', 'Vacunación contra moquillo', 'Vacuna moquillo', 'Dr. Ignacio Fernández'),
+(15, '2023-05-15', 'Consulta por problemas de piel', 'Shampoo medicado', 'Dra. Verónica Herrera'),
+(16, '2023-06-19', 'Desparasitación interna', 'Desparasitante', 'Dr. Eduardo Pacheco'),
+(17, '2023-07-20', 'Chequeo general', 'Sin tratamiento', 'Dra. Gloria Ruiz'),
+(18, '2023-08-25', 'Tratamiento de dermatitis', 'Cremas tópicas', 'Dr. Daniel García'),
+(19, '2023-09-15', 'Vacunación contra rabia', 'Vacuna antirrábica', 'Dra. Elisa Solís'),
+(20, '2023-10-05', 'Consulta por anemia', 'Suplementos vitamínicos', 'Dr. Tomás Gómez');
