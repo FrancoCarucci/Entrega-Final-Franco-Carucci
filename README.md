@@ -46,8 +46,9 @@ Este sistema permite gestionar toda la información relacionada con el proceso d
 ## Modelo de negocio
 
 El modelo de negocio de Huellitas en la ciudad de La Plata se centra en la recepción, cuidado,
-tratamiento y adopción de mascotas sin hogar.Este refugio tiene como objetivo principal proporcionar un hogar temporal a las mascotasdesamparadas, brindarles la atención veterinaria necesaria y facilitar su adopción a personas
-responsables y dispuestas a cuidarlas. Teniendo en cuenta todas las partes influyentes en este proceso, desde las mascotas y adoptantes hasta los otros refugios y proveedores de insumos
+tratamiento y adopción de mascotas sin hogar.
+
+Este refugio tiene como objetivo principal proporcionar un hogar temporal a las mascotasdesamparadas, brindarles la atención veterinaria necesaria y facilitar su adopción a personas responsables y dispuestas a cuidarlas. Teniendo en cuenta todas las partes influyentes en este proceso, desde las mascotas y adoptantes hasta los otros refugios y proveedores de insumos
 
 El objetivo es agilizar el dia a dia del refugio, ordenar sus datos y facilitar la toma de decisiones para la
 supervivencia de la organizacion a lo largo del tiempo
@@ -82,6 +83,7 @@ Esta función sirve para devolver un valor (por ejemplo, 1 para indicar que la m
 ```sql
 SELECT fn_adoptada(20) AS mascota_adoptada;
 ```
+En este ejemplo comprobamos que la mascota todavia no fue adoptada
 
 ### `fn_ultima_adopcion()`
 Esta funcion fue diseñada para devolver la fecha de la última adopción realizada por un adoptante específico..
@@ -90,6 +92,7 @@ Esta funcion fue diseñada para devolver la fecha de la última adopción realiz
 ```sql
 SELECT fn_ultima_adopcion(3) AS ultima_adopcion;
 ```
+En este ejemplo vemos como el adoptante (3) realizo la ultima adopcion el 2022-02-14
 
 ## Vistas
 
