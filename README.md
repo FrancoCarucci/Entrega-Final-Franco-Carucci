@@ -67,7 +67,7 @@ src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/Esq
 
 ## Tabla de Datos
 <img
-src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/Tabla_Huellitas.png">
+src="https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/HUELLITAS_Tabla.png">
 
 ## Estructura e ingesta de datos
 * Se realiza principalmente por medio del archivo population.sql
