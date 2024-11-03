@@ -180,9 +180,16 @@ IF ROW_COUNT() > 0 THEN
 ```
 Usando COMMIT agrego los cambios, de lo contrario, con ROLLBACK, se deshacen
 
+## Roles y permisos
+`[./objects/roles_users.sql](https://github.com/FrancoCarucci/Entrega-Final-Franco-Carucci/blob/main/roles/roles.sql)`
 
+Se generan tres roles:
 
+1. `role_select_vistas`: Puede realizar solo consultas (SELECT) en las vistas vista_adopciones_completas y vista_mascotas_sin_adoptar.
+2. `role_crud_mascotas`: Puede realizar todas las operaciones (ALL PRIVILEGES) en las tablas mascotas y razas.
+3. `role_crud_adopciones`: Puede realizar todas las operaciones en la tabla adopciones.
 
+Además, debido al tamaño de la organizacion solo se crea un usuario por cada rol y les asigna los roles correspondientes.
 
 
 
