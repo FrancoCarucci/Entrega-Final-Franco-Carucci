@@ -14,28 +14,6 @@ Docente: Anderson Michel Torres
 
 ---
 
-### **Consignas:**
-- La base de datos debe contener al menos:
-    * ~ 15 tablas, entre las cuales debe haber al menos 1 tabla de hechos,  2 tablas transaccionales.
-    * ~ 5 vistas.
-    * ~ 2 stored procedure.
-    * ~ 2  trigger.
-    * ~ 2 funciones
-    
-- El documento debe contener:
-    - Introducción
-    - Objetivo
-    - Situación problemática
-    - Modelo de negocio
-    - Diagrama de entidad relació
-    - Listado de tablas con descripción de estructura (columna,descripción, tipo de datos, tipo de clave)
-    - Scripts de creación de cada objeto de la base de datos
-    - Scripts de inserción de datos
-    - Informes generados en base a la información de la base
-    - Herramientas y tecnologías usadas
-
----
-
 ## Tematica del proyecto
 
 El equipo del proyecto Huellitas es una iniciativa centrada en facilitar y promover la adopción responsable de animales, con un enfoque en mejorar el bienestar de mascotas en situación de refugio. 
@@ -92,7 +70,7 @@ Esta funcion fue diseñada para devolver la fecha de la última adopción realiz
 ```sql
 SELECT fn_ultima_adopcion(3) AS ultima_adopcion;
 ```
-En este ejemplo vemos como el adoptante (3) realizo la ultima adopcion el 2022-02-14
+En este ejemplo vemos como el adoptante (3) realizo la ultima adopcion el 2024-11-01
 
 ## Vistas
 
@@ -190,13 +168,6 @@ Se generan tres roles:
 3. `role_crud_adopciones`: Puede realizar todas las operaciones en la tabla adopciones.
 
 Además, debido al tamaño de la organizacion solo se crea un usuario por cada rol y les asigna los roles correspondientes.
-
-
-
-
-
-
-
 
 ```
 
